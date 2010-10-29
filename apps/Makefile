@@ -1,10 +1,8 @@
 SUBDIRS=gpio sredird
 
-all: $(SUBDIRS)
-
-clean: $(SUBDIRS)
+all clean install: $(SUBDIRS)
 
 $(SUBDIRS):
-	$(MAKE) -C $@ $(MAKECMDGLOBALS)
+	$(MAKE) -C $@ $(MAKECMDGOALS)
 
-.PHONY: all clean $(SUBDIRS)
+.PHONY: all clean install $(SUBDIRS)

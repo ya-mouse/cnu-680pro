@@ -16,6 +16,9 @@ export FLTFLAGS
 $(TARGET): $(OBJ)
 	$(CC) $(LDFLAGS) -o $@ $^
 
+install: $(TARGET) $(CONTRIB)
+	rsync -avP $^ ../../out/bin/
+
 clean:
 	rm -f $(TARGET) $(TARGET).gdb $(OBJ)
 
