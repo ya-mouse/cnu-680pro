@@ -1,0 +1,11 @@
+asm
+bits
+linux
+scsi
+
+sys/ptrace.h
+sys/elf.h
+sys/procfs.h
+sys/ucontext.h
+sys/user.h
+sys/io.h
