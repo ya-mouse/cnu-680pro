@@ -1,0 +1,21 @@
+CC=arm-elf-gcc
+CFLAGS += -nostdinc -isystem ../../devel/include -iwithprefix include
+CFLAGS += -D__uClinux__
+CFLAGS += -D__PIC__ -fpic -msingle-pic-base -msoft-float -mstructure-size-boundary=8 -fno-strict-aliasing
+
+LDFLAGS += -Wl,-warn-common
+LDFLAGS += -static -s -fpic -msingle-pic-base -msoft-float
+LDFLAGS += -Wl,-elf2flt
+
+FLTFLAGS += -r -s 20000
+export FLTFLAGS
+
+.c.o:
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(TARGET): $(OBJ)
+	$(CC) $(LDFLAGS) -o $@ $^
+
+clean:
+	rm -f $(TARGET) $(TARGET).gdb $(OBJ)
+
