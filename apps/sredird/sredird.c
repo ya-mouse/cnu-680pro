@@ -2019,7 +2019,7 @@ int main(int argc, char * argv[])
     connfd = socket(PF_INET, SOCK_STREAM, 0);
     if (connfd < 0) {
       LogMsg(LOG_ERR,"Unable to create listen socket.");
-      exit(1);
+      return(Error);
     }
     local.sin_family = AF_INET;
     local.sin_port   = htons(Port);
@@ -2027,13 +2027,12 @@ int main(int argc, char * argv[])
     bzero(&local.sin_zero, sizeof(local.sin_zero));
     if (bind(connfd, (struct sockaddr *)&local, sizeof(struct sockaddr)) < 0) {
       LogMsg(LOG_ERR,"Unable to bind to local port");
-      exit(1);
+      return(Error);
     }
     if (listen(connfd, 1) < 0) {
       LogMsg(LOG_ERR,"Unable to listen to local port");
-      exit(1);
+      return(Error);
     }
-
 
     /* Set up fd sets */
     /* Initially we have to read from all, but we only have data to send
@@ -2051,11 +2050,22 @@ int main(int argc, char * argv[])
     /* Main loop with fd's control */
     while (True)
       {
-        if (select((sockfd == -1 ? connfd : sockfd)+ 1,&InFdSet,&OutFdSet,&ExFdSet,ETimeout) > 0)
+        if (select((sockfd > connfd ? sockfd : connfd)+ 1,&InFdSet,&OutFdSet,&ExFdSet,ETimeout) > 0)
           {
             if (FD_ISSET(connfd, &InFdSet))
               {
                 addrsize = sizeof(struct sockaddr_in);
+
+                if (DeviceOpened != True)
+                  {
+                    if ((DeviceFd = open(DeviceName,O_RDWR | O_NOCTTY | O_NDELAY, 0)) < 0) {
+                      sprintf(LogStr,"Unable to open device %s. Exiting.",DeviceName);
+                      LogMsg(LOG_ERR,LogStr);
+                      return(Error);
+                    }
+                    DeviceOpened = True;
+                  }
+
                 sockfd = accept(connfd, (struct sockaddr *)&remote, &addrsize);
 
                 setsockopt(sockfd,SOL_SOCKET,SO_KEEPALIVE,&SockParmEnable,sizeof(SockParmEnable));
@@ -2088,9 +2098,11 @@ int main(int argc, char * argv[])
             if (FD_ISSET(connfd, &ExFdSet))
               {
                 close(sockfd);
+                close(DeviceFd);
                 FD_ZERO(&InFdSet);
                 FD_ZERO(&OutFdSet);
                 FD_SET(connfd,&InFdSet);
+                DeviceOpened = False;
                 sockfd = -1;
               }
             /* Handle buffers in the following order
@@ -2140,9 +2152,11 @@ int main(int argc, char * argv[])
                         {
                           LogMsg(LOG_NOTICE,"Error writing to network.");
                           close(sockfd);
+                          close(DeviceFd);
                           FD_ZERO(&InFdSet);
                           FD_ZERO(&OutFdSet);
                           FD_SET(connfd,&InFdSet);
+                          DeviceOpened = False;
                           sockfd = -1;
                           break;
                         }
@@ -2184,9 +2198,11 @@ int main(int argc, char * argv[])
                         {
                           LogMsg(LOG_NOTICE,"Error reading from network.");
                           close(sockfd);
+                          close(DeviceFd);
                           FD_ZERO(&InFdSet);
                           FD_ZERO(&OutFdSet);
                           FD_SET(connfd,&InFdSet);
+                          DeviceOpened = False;
                           sockfd = -1;
                           break;
                         }
@@ -2249,12 +2265,12 @@ int main(int argc, char * argv[])
 
         /* If input flow has been disabled from the remote client
         don't read from the device */
-        if (!IsBufferFull(&ToNetBuf) && InputFlow == True)
+        if (!IsBufferFull(&ToNetBuf) && InputFlow == True && DeviceOpened == True)
           FD_SET(DeviceFd,&InFdSet);
 
         FD_ZERO(&OutFdSet);
         /* Check if there are characters available to write */
-        if (!IsBufferEmpty(&ToDevBuf))
+        if (!IsBufferEmpty(&ToDevBuf) && DeviceOpened == True)
             FD_SET(DeviceFd,&OutFdSet);
         if (!IsBufferEmpty(&ToNetBuf) && sockfd != -1)
             FD_SET(sockfd,&OutFdSet);
