@@ -1,0 +1,1 @@
+#define CONFIG_ETH_S3C2510 1

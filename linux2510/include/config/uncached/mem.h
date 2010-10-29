@@ -1,0 +1,1 @@
+#define CONFIG_UNCACHED_MEM 1

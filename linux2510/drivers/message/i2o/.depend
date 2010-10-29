@@ -1,0 +1,144 @@
+i2o_block.o: i2o_block.c \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/file.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   /home/storm/B4X/linux2510/include/linux/i2o.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/blkpg.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/linux/completion.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/atomic.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/linux/blk.h
+i2o_config.o: i2o_config.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/i2o.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h
+i2o_core.o: i2o_core.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/i2o.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/bitops.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/linux/completion.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   i2o_lan.h
+i2o_lan.o: i2o_lan.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/etherdevice.h \
+   /home/storm/B4X/linux2510/include/linux/fddidevice.h \
+   /home/storm/B4X/linux2510/include/linux/trdevice.h \
+   /home/storm/B4X/linux2510/include/linux/fcdevice.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/if_arp.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/i2o.h \
+   i2o_lan.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/net/fc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/tr.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/fddi.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/anylan.h)
+i2o_lan.h: \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/fddidevice.h
+	@touch i2o_lan.h
+i2o_pci.o: i2o_pci.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/i2o.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mtrr.h)
+i2o_proc.o: i2o_proc.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/i2o.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   i2o_lan.h
+i2o_scsi.o: i2o_scsi.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/prefetch.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/atomic.h \
+   /home/storm/B4X/linux2510/include/linux/blk.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/i2o.h \
+   ../../scsi/scsi.h \
+   ../../scsi/hosts.h \
+   ../../scsi/sd.h \
+   i2o_scsi.h \
+   ../../scsi/scsi_module.c
+i2o_scsi.h: \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kdev_t.h
+	@touch i2o_scsi.h
+.PRECIOUS:	i2o_lan.h \
+	i2o_scsi.h \
+

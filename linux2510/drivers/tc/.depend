@@ -1,0 +1,55 @@
+lk201.o: lk201.c \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_ll.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/vt_kern.h \
+   /home/storm/B4X/linux2510/include/asm/keyboard.h \
+   zs.h \
+   lk201.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h)
+tc.o: tc.c \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/asm/errno.h \
+   /home/storm/B4X/linux2510/include/asm/ptrace.h
+zs.o: zs.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/console.h) \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/pgtable.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/decstation.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/baget/mips.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/kgdb.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   zs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h)

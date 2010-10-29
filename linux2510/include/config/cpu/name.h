@@ -1,0 +1,1 @@
+#define CONFIG_CPU_NAME "S3C2510A01"

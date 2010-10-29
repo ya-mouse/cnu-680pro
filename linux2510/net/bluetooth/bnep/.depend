@@ -1,0 +1,72 @@
+bnep.h: \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/net/bluetooth/bluetooth.h \
+   crc32.h
+	@touch bnep.h
+core.o: core.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/net.h \
+   /home/storm/B4X/linux2510/include/net/sock.h \
+   /home/storm/B4X/linux2510/include/linux/socket.h \
+   /home/storm/B4X/linux2510/include/linux/file.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/etherdevice.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/asm/unaligned.h \
+   /home/storm/B4X/linux2510/include/net/bluetooth/bluetooth.h \
+   /home/storm/B4X/linux2510/include/net/bluetooth/l2cap.h \
+   bnep.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bnep/debug.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bnep/proto/filter.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bnep/mc/filter.h)
+crc32.o: crc32.c \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/atomic.h \
+   crc32.h
+netdev.o: netdev.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/socket.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/etherdevice.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/asm/unaligned.h \
+   /home/storm/B4X/linux2510/include/net/bluetooth/bluetooth.h \
+   /home/storm/B4X/linux2510/include/net/bluetooth/hci_core.h \
+   /home/storm/B4X/linux2510/include/net/bluetooth/l2cap.h \
+   bnep.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bnep/debug.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bnep/mc/filter.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bnep/proto/filter.h)
+sock.o: sock.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/socket.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   /home/storm/B4X/linux2510/include/linux/file.h \
+   /home/storm/B4X/linux2510/include/net/sock.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   bnep.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bnep/debug.h)
+.PRECIOUS:	bnep.h \
+

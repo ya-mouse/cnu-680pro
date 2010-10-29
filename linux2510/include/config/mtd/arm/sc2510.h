@@ -1,0 +1,1 @@
+#define CONFIG_MTD_ARM_SC2510 1

@@ -1,0 +1,47 @@
+tpam_commands.o: tpam_commands.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/isdn/tpam.h \
+   tpam.h
+tpam_crcpc.o: tpam_crcpc.c \
+   tpam.h
+tpam.h: \
+   /home/storm/B4X/linux2510/include/linux/isdnif.h \
+   /home/storm/B4X/linux2510/include/linux/init.h
+	@touch tpam.h
+tpam_hdlc.o: tpam_hdlc.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   tpam.h
+tpam_main.o: tpam_main.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   tpam.h
+tpam_memory.o: tpam_memory.c \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   tpam.h
+tpam_nco.o: tpam_nco.c \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   tpam.h
+tpam_queues.o: tpam_queues.c \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   tpam.h
+.PRECIOUS:	tpam.h \
+

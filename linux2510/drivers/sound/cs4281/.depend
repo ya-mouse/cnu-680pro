@@ -1,0 +1,32 @@
+cs4281m.o: cs4281m.c \
+   /home/storm/B4X/linux2510/include/linux/list.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/sound.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/soundcard.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/wrapper.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/hardirq.h \
+   cs4281_hwdefs.h \
+   cs4281_wrapper.h \
+   cs4281pm-24.h \
+   cs4281pm-24.c
+cs4281pm-24.h: \
+   /home/storm/B4X/linux2510/include/linux/pm.h \
+   cs4281pm.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pm.h)
+	@touch cs4281pm-24.h
+.PRECIOUS:	cs4281pm-24.h \
+

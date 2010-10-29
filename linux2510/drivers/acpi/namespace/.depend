@@ -1,0 +1,74 @@
+nsaccess.o: nsaccess.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h
+nsalloc.o: nsalloc.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h
+nsdump.o: nsdump.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h
+nseval.o: nseval.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h
+nsinit.o: nsinit.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h
+nsload.o: nsload.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdebug.h
+nsnames.o: nsnames.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h
+nsobject.o: nsobject.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h
+nssearch.o: nssearch.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h
+nsutils.o: nsutils.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h
+nswalk.o: nswalk.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h
+nsxfname.o: nsxfname.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h
+nsxfobj.o: nsxfobj.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h

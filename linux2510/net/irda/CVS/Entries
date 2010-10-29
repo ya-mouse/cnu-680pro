@@ -1,0 +1,25 @@
+/Config.in/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/Makefile/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/af_irda.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/crc.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/discovery.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irda_device.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/iriap.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/iriap_event.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irias_object.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irlap.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irlap_event.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irlap_frame.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irlmp.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irlmp_event.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irlmp_frame.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irproc.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irqueue.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irsyms.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irsysctl.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/irttp.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/parameters.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/qos.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/timer.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+/wrapper.c/1.1.1.1/Mon Nov 17 02:35:53 2003//
+D

@@ -1,0 +1,1030 @@
+aec62xx.o: aec62xx.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/aec62xx/tuning.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h)
+ali14xx.o: ali14xx.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h
+alim15x3.o: alim15x3.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/wdc/ali15x3.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sparc64.h)
+amd74xx.o: amd74xx.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/amd74xx/override.h)
+ataraid.o: ataraid.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/blkpg.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   /home/storm/B4X/linux2510/include/linux/kdev_t.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   ataraid.h
+ataraid.h: \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/blkpg.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+	@touch ataraid.h
+buddha.o: buddha.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/zorro.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h
+cmd640.o: cmd640.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/cmd640/enhanced.h)
+cmd64x.o: cmd64x.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ppc.h)
+cs5530.o: cs5530.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h)
+cy82c693.o: cy82c693.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h)
+dtc2278.o: dtc2278.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h
+falconide.o: falconide.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/setup.h
+gayle.o: gayle.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/zorro.h \
+   /home/storm/B4X/linux2510/include/asm/setup.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedoubler.h)
+hd.o: hd.c \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mc146818rtc.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/blkpg.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/blk.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h
+hpt34x.o: hpt34x.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hpt34x/autodma.h)
+hpt366.o: hpt366.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h)
+hptraid.o: hptraid.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/blkpg.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   ataraid.h \
+   hptraid.h
+ht6560b.o: ht6560b.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h
+icside.o: icside.c \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   /home/storm/B4X/linux2510/include/asm/ecard.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma/ics.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/idedma/ics/auto.h)
+ide.o: ide.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/blkpg.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/completion.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/kmod.h) \
+   /home/storm/B4X/linux2510/include/linux/kmod.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ide/taskfile/io.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idepci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/apus.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/hd.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/atari.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/q40.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/idepci/share/irq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/isapnp.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ide/task/ioctl/debug.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/pdc4030.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ide/module.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idescsi.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/scsi.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/amiga.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mac.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/dma/nonpci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idecs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/dtc2278.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idecd.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedisk.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idefloppy.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idetape.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ide/task/ioctl.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pkt/task/ioctl.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedoubler.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ali14xx.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/umc8672.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/cmd640.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ht6560b.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/qd65xx.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/4drives.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/rz1000.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/etrax/ide.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ide/pmac.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ide/sibyte.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ide/icside.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ide/rapide.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/gayle.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/falcon/ide.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/mac/ide.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/q40ide.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/buddha.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ocidec.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isapnp.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ide.h)
+ide-cd.o: ide-cd.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/cdrom.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/completion.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/unaligned.h \
+   ide-cd.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h)
+ide-cd.h: \
+   /home/storm/B4X/linux2510/include/linux/cdrom.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h
+	@touch ide-cd.h
+ide-cs.o: ide-cs.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/pcmcia/version.h \
+   /home/storm/B4X/linux2510/include/pcmcia/cs_types.h \
+   /home/storm/B4X/linux2510/include/pcmcia/cs.h \
+   /home/storm/B4X/linux2510/include/pcmcia/cistpl.h \
+   /home/storm/B4X/linux2510/include/pcmcia/ds.h \
+   /home/storm/B4X/linux2510/include/pcmcia/cisreg.h
+ide-disk.o: ide-disk.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/pdc4030.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ide/taskfile/io.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/idedisk/stroke.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/idedisk/multi/mode.h)
+ide-dma.o: ide-dma.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/idedma/new/drive/listings.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/trm290.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/idedma/onlydisk.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma/timeout.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma/forced.h)
+ide-features.o: ide-features.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/blkpg.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/idedma/ivb.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idepci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/dma/nonpci.h)
+ide-floppy.o: ide-floppy.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/cdrom.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/unaligned.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ppc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h)
+ide-geometry.o: ide-geometry.c \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/mc146818rtc.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ide.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/pdc4030.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ide/module.h)
+ide-m8xx.o: ide-m8xx.c \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/stddef.h \
+   /home/storm/B4X/linux2510/include/linux/unistd.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/user.h \
+   /home/storm/B4X/linux2510/include/linux/a.out.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/blk.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/bootmem.h \
+   /home/storm/B4X/linux2510/include/asm/mmu.h \
+   /home/storm/B4X/linux2510/include/asm/processor.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/pgtable.h \
+   /home/storm/B4X/linux2510/include/asm/ide.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/mpc8xx/ide.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/tqm850l.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ide/8xx/pccard.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ide/8xx/direct.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ide/ext/direct.h)
+ide_modes.h: \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ide/modes.h)
+	@touch ide_modes.h
+ide-pci.o: ide-pci.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/aec62xx.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ali15x3.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/amd74xx.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/cmd64x.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/cy82c693.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/cs5530.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/hpt34x.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/hpt366.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ns87415.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/opti621.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/pdc/adma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/pdc202xx.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/piix.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/it8172.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/rz1000.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/svwks.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/sis5513.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/slc90e66.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/sl82c105.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/trm290.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/via82cxxx.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pdc202xx/force.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/cmd680.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/idedma/auto.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma/pci.h)
+ide-pmac.o: ide-pmac.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/ide.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pmac/pbook.h) \
+   /home/storm/B4X/linux2510/include/linux/adb.h \
+   /home/storm/B4X/linux2510/include/linux/pmu.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma/pmac.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma/pmac/auto.h)
+ide-pnp.o: ide-pnp.c \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/isapnp.h
+ide-probe.o: ide-probe.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/scsi/eata/dma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/scsi/eata/pio.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/scsi/eata.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/pdc4030.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ppc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/cmd640.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/coldfire.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/amiga.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mac.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ide.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/elevator/noop.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/idepci/share/irq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/apus.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/hd.h)
+ide-proc.o: ide-proc.c \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/aec62xx.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ali15x3.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/amd74xx.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/cmd64x.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/cs5530.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/hpt34x.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/hpt366.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/pdc202xx.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/piix.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/svwks.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/sis5513.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/slc90e66.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/via82cxxx.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idepci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/apus.h)
+ide-sibyte.o: ide-sibyte.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ide.h)
+ide-tape.o: ide-tape.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/completion.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/unaligned.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/linux/mtio.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idepci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h)
+ide-taskfile.o: ide-taskfile.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/blkpg.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ide/taskfile/io.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ide/task/ioctl/debug.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pkt/task/ioctl.h)
+ide-timing.h: \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h
+	@touch ide-timing.h
+it8172.o: it8172.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/it8172/tuning.h)
+macide.o: macide.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/mac/mediabay.h)
+ns87415.o: ns87415.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h)
+ocidec.o: ocidec.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h \
+   ocidec.h
+opti621.o: opti621.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h
+pdc202xx.o: pdc202xx.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pdc202xx/burst.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pdc202xx/master.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pdc202xx/32/unmask.h)
+pdc4030.o: pdc4030.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   pdc4030.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ide/taskfile/io.h)
+pdcraid.o: pdcraid.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/blkpg.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   ataraid.h \
+   pdcraid.h
+piix.o: piix.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/piix/tuning.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ia64.h)
+q40ide.o: q40ide.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h
+qd65xx.o: qd65xx.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h \
+   qd65xx.h
+rapide.o: rapide.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/ecard.h
+rz1000.o: rz1000.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idepci.h)
+serverworks.o: serverworks.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/idedma/auto.h)
+sis5513.o: sis5513.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h)
+sl82c105.o: sl82c105.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   ide_modes.h
+slc90e66.o: slc90e66.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h)
+trm290.o: trm290.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h)
+umc8672.o: umc8672.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide_modes.h
+via82cxxx.o: via82cxxx.c \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ide.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   ide-timing.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/idedma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/idedma/auto.h)
+.PRECIOUS:	ataraid.h \
+	ide-cd.h \
+	ide_modes.h \
+	ide-timing.h \
+

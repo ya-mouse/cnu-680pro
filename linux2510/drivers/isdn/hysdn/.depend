@@ -1,0 +1,84 @@
+boardergo.o: boardergo.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   hysdn_defs.h \
+   boardergo.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hysdn/capi.h)
+hycapi.o: hycapi.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   hysdn_defs.h \
+   /home/storm/B4X/linux2510/include/linux/kernelcapi.h
+hysdn_boot.o: hysdn_boot.c \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   hysdn_defs.h \
+   hysdn_pof.h
+hysdn_defs.h: \
+   /home/storm/B4X/linux2510/include/linux/hysdn_if.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   ince1pc.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hysdn/capi.h) \
+   /home/storm/B4X/linux2510/include/linux/capi.h \
+   ../avmb1/capicmd.h \
+   ../avmb1/capiutil.h \
+   ../avmb1/capilli.h
+	@touch hysdn_defs.h
+hysdn_init.o: hysdn_init.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   hysdn_defs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hysdn/capi.h)
+hysdn_net.o: hysdn_net.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/etherdevice.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/inetdevice.h \
+   hysdn_defs.h
+hysdn_procconf.o: hysdn_procconf.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   hysdn_defs.h
+hysdn_proclog.o: hysdn_proclog.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   hysdn_defs.h
+hysdn_sched.o: hysdn_sched.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   hysdn_defs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hysdn/capi.h)
+.PRECIOUS:	hysdn_defs.h \
+

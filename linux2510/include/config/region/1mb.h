@@ -1,0 +1,1 @@
+#undef  CONFIG_REGION_1MB

@@ -1,0 +1,150 @@
+/*
+ * time.c Timer functions for SMDK2510-AN
+ *
+ * Copyright (C) 2002 Arcturus Networks Inc. 
+ * by Oleksandr Zhadan <oleks@arcturusnetworks.com>
+ *
+ */
+
+#include <linux/time.h>
+#include <linux/timex.h>
+#include <linux/types.h>
+#include <linux/sched.h>
+#include <asm/io.h>
+#include <asm/arch/hardware.h>
+#include <asm/arch/timers.h> //ryc++
+
+#define HZMSEC	10000	/* (HZ*100) */
+
+unsigned long s3c2510_gettimeoffset (void)
+{
+    struct s3c2510_timer *tt = (struct s3c2510_timer *) (TIMER_BASE);
+    return ((tt->td[2*KERNEL_TIMER] - tt->td[2*KERNEL_TIMER+1]) / (tt->td[2*KERNEL_TIMER]/HZMSEC));
+}
+
+
+//< coreyliu 20040202 ported for reset to default
+#if 0 /* can not compiler yet coreyliu 20040203 */
+static void mtd_erase_callback (struct erase_info *instr)
+{
+    wake_up((wait_queue_head_t *)instr->priv);
+}
+/* OUTINE NAME - erase_config
+ ** -----------------------------------------------------------------
+ ** FUNCTION:  erase configuration in mtd block 2
+ **            
+ **          
+ ** INPUT  : None    
+ ** OUTPUT : None
+ ** RETUEN :     
+ **          None    
+ ** -----------------------------------------------------------------
+ **/             
+ void erase_config()
+{               
+
+    int ret = 0;
+    struct mtd_info *mtd_if;
+    struct erase_info *erase;
+    
+    u_int32_t start_addr=0;
+    mtd_if = __get_mtd_device(NULL,1); /* get mtd 2 */
+    erase=kmalloc(sizeof(*erase),GFP_KERNEL);
+	   
+	   if (!erase) {
+	       printk("malloc memory fail\n");
+	       return;
+	   } else {
+               /* erase each block */
+               for (start_addr = 0;start_addr < mtd_if->size;start_addr += mtd_if->erasesize) {
+                   wait_queue_head_t waitq;
+                   DECLARE_WAITQUEUE(wait, current);	    
+
+		   init_waitqueue_head(&waitq);
+
+		   memset (erase,0,sizeof(struct erase_info));
+
+		   erase->addr = start_addr;
+		   erase->len = mtd_if->erasesize;
+
+		   erase->mtd = mtd_if;
+		   erase->callback = mtd_erase_callback;
+		   erase->priv = (unsigned long)&waitq;
+
+		   printk("Erase MTD 1 Address:%X Size:%d KBytes\n",erase->addr,erase->len/1024);
+
+		   ret = mtd_if->erase(mtd_if, erase);
+		   if (!ret) {
+			   set_current_state(TASK_UNINTERRUPTIBLE);
+			   add_wait_queue(&waitq, &wait);
+			   if (erase->state != MTD_ERASE_DONE && erase->state != MTD_ERASE_FAILED) {
+				   schedule();
+		           }
+			   remove_wait_queue(&waitq, &wait);
+			   set_current_state(TASK_RUNNING);
+			   ret = (erase->state == MTD_ERASE_FAILED)?-EIO:0;
+			   if (ret == -EIO)
+				   printk("Erase %X (size %d KBytes)fail\n",erase->addr,erase->len/1024);
+		   }
+	       }
+	       kfree(erase);
+           }
+	   /* reboot */
+	   //machine_restart(NULL);	   
+           WDT_reboot();
+}
+
+
+// KenC, 20031105
+// 2003.12.16/storm/add init function to here
+// coreyliu 20040202 ported
+void scan_init_button(void)
+{
+    static int nCount;
+    unsigned long tmp;
+    
+    tmp = *(unsigned int *)IOPDATA1;
+    tmp &= 0x00000020;	// GPIO5
+    if ( !tmp )		// low
+    {
+	nCount++;
+	if (nCount >= 10)
+	{
+	   printk("==== init button detect %x ========\n", tmp);
+	   // TBD, we shall add here to do default setting and reboot 
+	   ResetConf_flag = 1;
+           ResetConf_task.routine = erase_config;
+	   schedule_task(&ResetConf_task);	
+	   nCount = 0;
+	}
+    }
+    else{
+	   nCount = 0;
+    }
+}
+#endif
+//> coreyliu 20040202 end
+
+void s3c2510_timer_interrupt(int irq, void *dev_id, struct pt_regs *regs)
+{
+//< coreyliu 20040202 ported for reset to default
+#if 0
+    	static int mS;
+
+    /* entry per 10 ms */    
+
+    mS++;
+    if (mS%10 == 0) 	// per 100ms
+	scan_init_button();
+
+    if  (mS > 49) {
+	mS = 0;
+    }
+#endif
+//> coreyliu 20040202 end
+
+    //modified 
+    REG_WRITE(IC, (1<<(irq-28)));
+    
+    do_timer(regs);
+}

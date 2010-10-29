@@ -1,0 +1,58 @@
+alloc.o: alloc.c \
+   hpfs_fn.h
+anode.o: anode.c \
+   hpfs_fn.h
+buffer.o: buffer.c \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   hpfs_fn.h
+dentry.o: dentry.c \
+   hpfs_fn.h
+dir.o: dir.c \
+   hpfs_fn.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h
+dnode.o: dnode.c \
+   hpfs_fn.h
+ea.o: ea.c \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   hpfs_fn.h
+file.o: file.c \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   hpfs_fn.h
+hpfs_fn.h: \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/hpfs_fs.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   hpfs.h
+	@touch hpfs_fn.h
+inode.o: inode.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   hpfs_fn.h
+map.o: map.c \
+   hpfs_fn.h
+name.o: name.c \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   hpfs_fn.h
+namei.o: namei.c \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   hpfs_fn.h
+super.o: super.c \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   hpfs_fn.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h
+.PRECIOUS:	hpfs_fn.h \
+

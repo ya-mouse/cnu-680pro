@@ -1,0 +1,168 @@
+exconfig.o: exconfig.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h
+exconvrt.o: exconvrt.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h
+excreate.o: excreate.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h
+exdump.o: exdump.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h
+exfield.o: exfield.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h
+exfldio.o: exfldio.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h
+exmisc.o: exmisc.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h
+exmutex.o: exmutex.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h
+exnames.o: exnames.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h
+exoparg1.o: exoparg1.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h
+exoparg2.o: exoparg2.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h
+exoparg3.o: exoparg3.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h
+exoparg6.o: exoparg6.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h
+exprep.o: exprep.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h
+exregion.o: exregion.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h
+exresnte.o: exresnte.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h
+exresolv.o: exresolv.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h
+exresop.o: exresop.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h
+exstore.o: exstore.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h
+exstoren.o: exstoren.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h
+exstorob.o: exstorob.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acdispat.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h
+exsystem.o: exsystem.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h
+exutils.o: exutils.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acparser.h

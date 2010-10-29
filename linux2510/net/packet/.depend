@@ -1,0 +1,40 @@
+af_packet.o: af_packet.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/socket.h \
+   /home/storm/B4X/linux2510/include/linux/in.h \
+   /home/storm/B4X/linux2510/include/linux/inet.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/if_packet.h \
+   /home/storm/B4X/linux2510/include/linux/wireless.h \
+   /home/storm/B4X/linux2510/include/linux/kmod.h \
+   /home/storm/B4X/linux2510/include/net/ip.h \
+   /home/storm/B4X/linux2510/include/net/protocol.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/net/sock.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/ioctls.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/if_bridge.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/net/divert.h) \
+   /home/storm/B4X/linux2510/include/linux/divert.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/inet.h) \
+   /home/storm/B4X/linux2510/include/net/inet_common.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/dlci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/packet/multicast.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/packet/mmap.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sock/packet.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/filter.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bridge.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bridge/module.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/kmod.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/net/radio.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h)

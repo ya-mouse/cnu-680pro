@@ -1,0 +1,81 @@
+adfs.h: \
+   dir_f.h
+	@touch adfs.h
+dir.o: dir.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/adfs_fs.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   adfs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/adfs/fs/rw.h)
+dir_f.o: dir_f.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/adfs_fs.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   adfs.h \
+   dir_f.h
+dir_fplus.o: dir_fplus.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/adfs_fs.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   adfs.h \
+   dir_fplus.h
+file.o: file.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   adfs.h
+inode.o: inode.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/adfs_fs.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   adfs.h
+map.o: map.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/adfs_fs.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   adfs.h
+super.o: super.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/adfs_fs.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   adfs.h \
+   dir_f.h \
+   dir_fplus.h
+.PRECIOUS:	adfs.h \
+

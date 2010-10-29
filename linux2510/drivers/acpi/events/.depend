@@ -1,0 +1,49 @@
+evevent.o: evevent.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h
+evmisc.o: evmisc.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h
+evregion.o: evregion.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h
+evrgnini.o: evrgnini.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h
+evsci.o: evsci.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h
+evxface.o: evxface.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h
+evxfevnt.o: evxfevnt.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h
+evxfregn.o: evxfregn.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acevents.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/amlcode.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h

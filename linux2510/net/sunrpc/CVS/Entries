@@ -1,0 +1,18 @@
+/Makefile/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/auth.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/auth_null.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/auth_unix.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/clnt.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/pmap_clnt.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/sched.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/stats.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/sunrpc_syms.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/svc.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/svcauth.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/svcauth_des.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/svcsock.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/sysctl.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/timer.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/xdr.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+/xprt.c/1.1.1.1/Mon Nov 17 02:35:55 2003//
+D

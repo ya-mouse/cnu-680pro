@@ -1,0 +1,1 @@
+#undef  CONFIG_BOARD_SNDS100

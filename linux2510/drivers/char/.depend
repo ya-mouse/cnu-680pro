@@ -1,0 +1,3193 @@
+68328serial.o: 68328serial.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/keyboard.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/pm.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/delay.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m68ez328.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m68vz328.h) \
+   68328serial.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/xcopilot/bugs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m68ez328ads.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/alma/ans.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/dragonixvz.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/68328/serial/rts/cts.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pm.h)
+68328serial.h: \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m68ez328.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m68vz328.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m68328.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/68328/serial/uart2.h)
+	@touch 68328serial.h
+acquirewdt.o: acquirewdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+adbmouse.o: adbmouse.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/adb_mouse.h \
+   /home/storm/B4X/linux2510/include/asm/processor.h \
+   /home/storm/B4X/linux2510/include/asm/setup.h \
+   busmouse.h
+advantechwdt.o: advantechwdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+alim1535d_wdt.o: alim1535d_wdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+alim7101_wdt.o: alim7101_wdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+amd768_rng.o: amd768_rng.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+amd76x_pm.o: amd76x_pm.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/pm.h \
+   amd76x_pm.h
+amd7xx_tco.o: amd7xx_tco.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+amigamouse.o: amigamouse.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/logibusmouse.h \
+   /home/storm/B4X/linux2510/include/asm/setup.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   busmouse.h
+amikeyb.o: amikeyb.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/keyboard.h \
+   /home/storm/B4X/linux2510/include/linux/kd.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_ll.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h)
+amiserial.o: amiserial.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   /home/storm/B4X/linux2510/include/linux/serial_reg.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/asm/setup.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hard/pps.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/console.h)
+applicom.o: applicom.c \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/asm/errno.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/compatmac.h \
+   applicom.h
+atarimouse.o: atarimouse.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/logibusmouse.h \
+   /home/storm/B4X/linux2510/include/asm/setup.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   busmouse.h
+atixlmouse.o: atixlmouse.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   busmouse.h
+au1000_gpio.o: au1000_gpio.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/usb/ohci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/au1000/usb/device.h)
+au1000_ts.o: au1000_ts.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h
+busmouse.o: busmouse.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   busmouse.h
+console.o: console.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kd.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/vt_kern.h \
+   /home/storm/B4X/linux2510/include/linux/selection.h \
+   /home/storm/B4X/linux2510/include/linux/console_struct.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/consolemap.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/bootmem.h \
+   /home/storm/B4X/linux2510/include/linux/pm.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   console_macros.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/vt/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/vt.h)
+consolemap.o: consolemap.c \
+   /home/storm/B4X/linux2510/include/linux/kd.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/consolemap.h \
+   /home/storm/B4X/linux2510/include/linux/console_struct.h \
+   /home/storm/B4X/linux2510/include/linux/vt_kern.h
+cyclades.o: cyclades.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/cyclades.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isa.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cyz/intr.h)
+decserial.o: decserial.c \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/zs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/dz.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial.h)
+defkeymap.o: defkeymap.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/keyboard.h \
+   /home/storm/B4X/linux2510/include/linux/kd.h
+dn_keyb.o: dn_keyb.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/keyboard.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/kd.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_ll.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/setup.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   busmouse.h
+dragonixspi.o: dragonixspi.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/linux/rtc.h
+ds1302.o: ds1302.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/asm/param.h \
+   /home/storm/B4X/linux2510/include/linux/rtc.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/viola/rtc.h)
+ds1620.o: ds1620.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/capability.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/hardware.h \
+   /home/storm/B4X/linux2510/include/asm/mach-types.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/therm.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h)
+dsp56k.o: dsp56k.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+dtlk.o: dtlk.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/dtlk.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h
+dummy_keyb.o: dummy_keyb.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/init.h
+dz.o: dz.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/param.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/asm-mips/wbflush.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   dz.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/console.h)
+ec3104_keyb.o: ec3104_keyb.c \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_ll.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/keyboard.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/pc_keyb.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/psmouse.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/vt.h)
+efirtc.o: efirtc.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/rtc.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/efi.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h
+envm-s3c2510_2M.o: envm-s3c2510_2M.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/arch/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/delay.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/asm/ioctl.h \
+   /home/storm/B4X/linux2510/include/asm/page.h \
+   /home/storm/B4X/linux2510/include/asm/arch/hardware.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   envm-s3c2510.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/board/smdk2510.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/board/2510ref.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/nr/dram/banks.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/env/overwrite.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/overwrite/ethaddr/once.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ethaddr.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/commands.h)
+envm-s3c2510_4M.o: envm-s3c2510_4M.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/arch/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/delay.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/asm/ioctl.h \
+   /home/storm/B4X/linux2510/include/asm/page.h \
+   /home/storm/B4X/linux2510/include/asm/arch/hardware.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   envm-s3c2510.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/board/smdk2510.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/board/2510ref.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/nr/dram/banks.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/env/overwrite.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/overwrite/ethaddr/once.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ethaddr.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/commands.h)
+envm-s3c2510.h: \
+   $(wildcard /home/storm/B4X/linux2510/include/config/board/smdk2510.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/board/2510ref.h)
+	@touch envm-s3c2510.h
+epca.o: epca.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h) \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   digiPCI.h \
+   digi1.h \
+   digiFep1.h \
+   epca.h \
+   epcaconfig.h
+esp.o: esp.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   /home/storm/B4X/linux2510/include/linux/serial_reg.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/hayesesp.h
+eurotechwdt.o: eurotechwdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+exp.o: exp.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/param.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+flash_s3c2510.o: flash_s3c2510.c \
+   /home/storm/B4X/linux2510/include/linux/autoconf.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/unistd.h \
+   /home/storm/B4X/linux2510/include/linux/flash_s3c2510.h \
+   /home/storm/B4X/linux2510/include/linux/malloc.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h
+generic_serial.o: generic_serial.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/generic_serial.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+gigabyte_gpio.bak.o: gigabyte_gpio.bak.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/linux/mtd/mtd.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/gigabyte_gpio.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h
+gigabyte_gpio.o: gigabyte_gpio.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/linux/mtd/mtd.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/gigabyte_gpio.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h
+h8.o: h8.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/stddef.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/linkage.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/list.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/asm/unistd.h \
+   h8.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/h8/display/blank.h)
+hcdp_serial.o: hcdp_serial.c \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/pm.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   /home/storm/B4X/linux2510/include/linux/efi.h \
+   /home/storm/B4X/linux2510/include/asm/serial.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/hcdp_serial.h
+hp600_keyb.o: hp600_keyb.c \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/delay.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   scan_keyb.h
+hp_keyb.o: hp_keyb.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_ll.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/hardware.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h)
+hp_psaux.o: hp_psaux.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/pc_keyb.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/asm/hardware.h \
+   /home/storm/B4X/linux2510/include/asm/keyboard.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/psmouse.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h)
+hvc_console.o: hvc_console.c \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h)
+i810_rng.o: i810_rng.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+i810-tco.o: i810-tco.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   i810-tco.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+i8k.o: i8k.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/apm_bios.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_ll.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/i8k.h
+ib700wdt.o: ib700wdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+indydog.o: indydog.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+ip2.o: ip2.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   ./ip2/ip2types.h \
+   ./ip2/fip_firm.h
+ip2main.o: ip2main.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/termios.h \
+   /home/storm/B4X/linux2510/include/linux/tty_driver.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/cdk.h \
+   /home/storm/B4X/linux2510/include/linux/comstats.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/serial.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   ./ip2/ip2types.h \
+   ./ip2/ip2trace.h \
+   ./ip2/ip2ioctl.h \
+   ./ip2/ip2.h \
+   ./ip2/i2ellis.h \
+   ./ip2/i2lib.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   ./ip2/i2ellis.c \
+   ./ip2/i2cmd.c \
+   ./ip2/i2lib.c \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h)
+isicom.o: isicom.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/termios.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/isicom.h
+istallion.o: istallion.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/cdk.h \
+   /home/storm/B4X/linux2510/include/linux/comstats.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/istallion.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h) \
+   /home/storm/B4X/linux2510/include/linux/pci.h
+ite_gpio.o: ite_gpio.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/ite_gpio.h
+keyboard.o: keyboard.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/keyboard.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_diacr.h \
+   /home/storm/B4X/linux2510/include/linux/vt_kern.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_ll.h \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   /home/storm/B4X/linux2510/include/linux/pm.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/forward/keyboard.h)
+lcd.o: lcd.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/mc146818rtc.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   lcd.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/tulip.h)
+lcdtxt.o: lcdtxt.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/asm/param.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/secureedgemp3.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/elia.h)
+ledman.o: ledman.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/utsname.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/ledman.h \
+   /home/storm/B4X/linux2510/include/linux/malloc.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sh/keywest.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sh/bigsur.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m586.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/x86.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/snapgear.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/nettel.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m5307.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m5272.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/se1100.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/gilbarconap.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sh/secureedge5410.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m5206e.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/elia.h) \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/coldfire.h) \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/chinook.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sitectrler.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/adtran/advanta.h) \
+   /home/storm/B4X/linux2510/include/linux/kernel_stat.h
+logibusmouse.o: logibusmouse.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/logibusmouse.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   busmouse.h
+lp.o: lp.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/parport.h \
+   /home/storm/B4X/linux2510/include/linux/lp.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/lp/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/parport/1284.h)
+m5249audio.o: m5249audio.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/soundcard.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/param.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/audioirq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/audioirqasm.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/audiodma.h)
+machzwd.o: machzwd.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+mc68328digi.o: mc68328digi.c \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/param.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/malloc.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m68328.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m68ez328.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m68vz328.h) \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ucdimm.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/xcopilot/bugs.h)
+mc68328digi.h: \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h
+	@touch mc68328digi.h
+mcf_qspi.o: mcf_qspi.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/modversions.h) \
+   /home/storm/B4X/linux2510/include/linux/modversions.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   mcf_qspi.h
+mcfserial.o: mcfserial.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ledman.h) \
+   /home/storm/B4X/linux2510/include/linux/ledman.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/delay.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   mcfserial.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/arnewsh.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/motorola.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sentec.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/gilbarconap.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m5272.h)
+mcfserial.h: \
+   /home/storm/B4X/linux2510/include/linux/serial.h
+	@touch mcfserial.h
+mcfwatchdog.o: mcfwatchdog.c \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/param.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/delay.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m5272.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/oldmask.h)
+mem.o: mem.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/tpqic02.h \
+   /home/storm/B4X/linux2510/include/linux/ftape.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/mman.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/raw.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/capability.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/pgalloc.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/i2c.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/fb.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/prom/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mda/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/s390/tape.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/s390/tape/char.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isa.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m68k/printer.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/qic02/tape.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ftape.h)
+misc.o: misc.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/selection.h \
+   /home/storm/B4X/linux2510/include/linux/kmod.h \
+   busmouse.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sgi/newport/gfx.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mvme16x.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bvme6000.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sgi/ds1286.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pmac/pbook.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sgi/ip22.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/toshiba.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cobalt/lcd.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/i8k.h)
+mixcomwd.o: mixcomwd.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+mk712.o: mk712.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h
+moxa.o: moxa.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/tty_driver.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h)
+msbusmouse.o: msbusmouse.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/logibusmouse.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   busmouse.h
+mxser.o: mxser.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/serial_reg.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h)
+nb85e_uart.o: nb85e_uart.c \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/tty_driver.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/generic_serial.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h)
+n_hdlc.o: n_hdlc.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/in.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/termios.h \
+   /home/storm/B4X/linux2510/include/linux/if.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/kerneld.h) \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+NIOSserial.o: NIOSserial.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/keyboard.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/delay.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   NIOSserial.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h)
+n_r3964.o: n_r3964.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/in.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   /home/storm/B4X/linux2510/include/linux/n_r3964.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+n_tty.o: n_tty.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   /home/storm/B4X/linux2510/include/linux/kd.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h
+nvram.o: nvram.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/nvram.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/atari.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cobalt.h) \
+   /home/storm/B4X/linux2510/include/linux/cobalt-nvram.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/mc146818rtc.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h)
+nwbutton.o: nwbutton.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/time.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/mach-types.h \
+   nwbutton.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/nwbutton/reboot.h)
+nwflash.o: nwflash.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/rwsem.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/hardware/dec21285.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/leds.h \
+   /home/storm/B4X/linux2510/include/asm/mach-types.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/nwflash.h
+pc110pad.o: pc110pad.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/signal.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   pc110pad.h
+pc110pad.h: \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h
+	@touch pc110pad.h
+pc_keyb.o: pc_keyb.c \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_ll.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/vt_kern.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/kd.h \
+   /home/storm/B4X/linux2510/include/linux/pm.h \
+   /home/storm/B4X/linux2510/include/asm/keyboard.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/pc_keyb.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/psmouse.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/vt.h)
+pc_keyb_hd64465.o: pc_keyb_hd64465.c \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_ll.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/malloc.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/pc_keyb.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sh/keywest.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/psmouse.h)
+pcwd.o: pcwd.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+pcxx.o: pcxx.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/tty_driver.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   digi.h \
+   fep.h \
+   pcxx.h \
+   digi_fep.h \
+   digi_bios.h
+pdc_console.o: pdc_console.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   /home/storm/B4X/linux2510/include/linux/serial_reg.h \
+   /home/storm/B4X/linux2510/include/asm/serial.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/gsc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h)
+ppdev.o: ppdev.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   /home/storm/B4X/linux2510/include/linux/parport.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/ppdev.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h
+pty.o: pty.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/linux/devpts_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/unix98/ptys.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h)
+q40_keyb.o: q40_keyb.c \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/keyboard.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_ll.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/asm/keyboard.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h)
+qpmouse.o: qpmouse.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/linux/pc_keyb.h
+qtronix.o: qtronix.c \
+   $(wildcard /home/storm/B4X/linux2510/include/config/qtronix/keyboard.h) \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_ll.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/pc_keyb.h \
+   /home/storm/B4X/linux2510/include/asm/keyboard.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/psmouse.h)
+qtronixmap.o: qtronixmap.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/keyboard.h \
+   /home/storm/B4X/linux2510/include/linux/kd.h
+random.o: random.c \
+   /home/storm/B4X/linux2510/include/linux/utsname.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/processor.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sysctl.h) \
+   /home/storm/B4X/linux2510/include/linux/sysctl.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ipv6.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ipv6/module.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/syn/cookies.h)
+raw.o: raw.c \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/iobuf.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/raw.h \
+   /home/storm/B4X/linux2510/include/linux/capability.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+riscom8.o: riscom8.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   riscom8.h \
+   riscom8_reg.h
+riscom8.h: \
+   /home/storm/B4X/linux2510/include/linux/serial.h
+	@touch riscom8.h
+rocket.o: rocket.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h) \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   rocket_int.h \
+   /home/storm/B4X/linux2510/include/linux/rocket.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h)
+rocket_int.h: \
+   /home/storm/B4X/linux2510/include/asm/io.h
+	@touch rocket_int.h
+rtc.o: rtc.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/mc146818rtc.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/sysctl.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/decstation.h)
+sb1250_duart.o: sb1250_duart.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/kdev_t.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/termios.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/irq.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sb1250/duart/output/buf/size.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sibyte/sb1250/duart/no/port/1.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/console.h)
+sbc60xxwdt.o: sbc60xxwdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h
+sc1200wdt.o: sc1200wdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/isapnp.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isapnp.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isapnp/module.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+sc520_wdt.o: sc520_wdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+scan_keyb.o: scan_keyb.c \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_ll.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h
+scc.h: \
+   /home/storm/B4X/linux2510/include/linux/delay.h
+	@touch scc.h
+selection.o: selection.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/vt_kern.h \
+   /home/storm/B4X/linux2510/include/linux/consolemap.h \
+   /home/storm/B4X/linux2510/include/linux/console_struct.h \
+   /home/storm/B4X/linux2510/include/linux/selection.h
+ser_a2232.o: ser_a2232.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/asm/setup.h \
+   /home/storm/B4X/linux2510/include/linux/zorro.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/generic_serial.h \
+   ser_a2232.h \
+   ser_a2232fw.h
+serial167.o: serial167.c \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/serial167.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/setup.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/remote/debug.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h)
+serial_21285.o: serial_21285.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/hardware/dec21285.h \
+   /home/storm/B4X/linux2510/include/asm/hardware.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/21285/old.h) \
+   /home/storm/B4X/linux2510/include/asm/mach-types.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/21285/console.h)
+serial_amba.o: serial_amba.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/circ_buf.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/hardware/serial_amba.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hard/pps.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/amba/console.h)
+serial_atmel.o: serial_atmel.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/arch/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/delay.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   serial_atmel.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/swap/atmel/ports.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/console/on/sc28l91.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/console/on/atmel.h)
+serial_atmel.h: \
+   /home/storm/B4X/linux2510/include/asm/page.h \
+   /home/storm/B4X/linux2510/include/asm/arch/hardware.h
+	@touch serial_atmel.h
+serial.o: serial.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/share/irq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/many/ports.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/acpi.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isapnp.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isapnp/module.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/multiport.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hub6.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m386.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m486.h) \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   /home/storm/B4X/linux2510/include/linux/serial_reg.h \
+   /home/storm/B4X/linux2510/include/asm/serial.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/console.h) \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/isapnp.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ledman.h) \
+   /home/storm/B4X/linux2510/include/linux/ledman.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mac/serial.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/rsa.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/gsc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hard/pps.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/detect/irq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ddb5074.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mca.h)
+serial_dsc21.o: serial_dsc21.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/modversions.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   /home/storm/B4X/linux2510/include/asm/serial.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/malloc.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/dsc21/console.h) \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/dsc21/timer.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/procfs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/revisit.h)
+serial_netarm.o: serial_netarm.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   /home/storm/B4X/linux2510/include/linux/serial_reg.h \
+   /home/storm/B4X/linux2510/include/asm/serial.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/netarm/console.h) \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h)
+serial_s3c2510.o: serial_s3c2510.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/arch/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/delay.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   serial_s3c2510.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/cuart.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/huart.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/s3c2510/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/console/huart0.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/console/huart1.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/init/console/speed.h)
+serial_s3c2510.h: \
+   /home/storm/B4X/linux2510/include/asm/page.h \
+   /home/storm/B4X/linux2510/include/asm/arch/hardware.h
+	@touch serial_s3c2510.h
+serial_s3c3410.o: serial_s3c3410.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   /home/storm/B4X/linux2510/include/asm/serial.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/s3c3410/console.h) \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/isapnp.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ledman.h) \
+   /home/storm/B4X/linux2510/include/linux/ledman.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mac/serial.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/rsa.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/samsung/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/multiport.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/share/irq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/many/ports.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hub6.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/detect/irq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mca.h)
+serial_s3c4530.o: serial_s3c4530.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/arch/irq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/delay.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   serial_s3c4530.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ucbootstrap.h) \
+   /home/storm/B4X/linux2510/include/asm/uCbootstrap.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/console/uarta.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/console/uartb.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/board/evs3c4530hei.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/console/null.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/init/console/speed.h)
+serial_s3c4530.h: \
+   /home/storm/B4X/linux2510/include/asm/page.h \
+   /home/storm/B4X/linux2510/include/asm/arch/hardware.h
+	@touch serial_s3c4530.h
+serial_samsung.o: serial_samsung.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/share/irq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/many/ports.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isapnp.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isapnp/module.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/multiport.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hub6.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m386.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m486.h) \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   /home/storm/B4X/linux2510/include/asm/serial.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/samsung/console.h) \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/isapnp.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ledman.h) \
+   /home/storm/B4X/linux2510/include/linux/ledman.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mac/serial.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/rsa.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/detect/irq.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mca.h)
+serial_tx3912.o: serial_tx3912.c \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/delay.h \
+   serial_tx3912.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/tx3912/console.h)
+serial_tx3912.h: \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   /home/storm/B4X/linux2510/include/linux/generic_serial.h
+	@touch serial_tx3912.h
+serial_txx927.o: serial_txx927.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/circ_buf.h \
+   /home/storm/B4X/linux2510/include/linux/serial_reg.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/serialP.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/txx927/serial/console.h) \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h) \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/serial.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/toshiba/jmr3927.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mac/serial.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h)
+sh-sci.o: sh-sci.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/console.h) \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ledman.h) \
+   /home/storm/B4X/linux2510/include/linux/ledman.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/linux/generic_serial.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sh/standard/bios.h) \
+   sh-sci.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sh/secureedge5410.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/subtype/sh7750.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/subtype/sh7751.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/subtype/st40stb1.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h) \
+   generic_serial.c \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sh/early/printk.h)
+sh-sci.h: \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/h8300h.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/subtype/sh7708.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/subtype/sh7707.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/subtype/sh7709.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/subtype/sh7750.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/subtype/sh7751.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/subtype/st40stb1.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/clk/freq.h)
+	@touch sh-sci.h
+shwdt.o: shwdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/sh5.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/sh4.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/sh3.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+softdog.o: softdog.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+sonypi.o: sonypi.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   sonypi.h \
+   /home/storm/B4X/linux2510/include/linux/sonypi.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/acpi.h)
+sonypi.h: \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/sonypi.h
+	@touch sonypi.h
+specialix.o: specialix.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   specialix_io8.h \
+   cd1865.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/specialix/rtscts.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h)
+specialix_io8.h: \
+   /home/storm/B4X/linux2510/include/linux/serial.h
+	@touch specialix_io8.h
+spi.o: spi.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/unistd.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/system.h
+stallion.o: stallion.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/cd1400.h \
+   /home/storm/B4X/linux2510/include/linux/sc26198.h \
+   /home/storm/B4X/linux2510/include/linux/comstats.h \
+   /home/storm/B4X/linux2510/include/linux/stallion.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h) \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h)
+sx.o: sx.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kdev_t.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   sxboards.h \
+   sxwindow.h \
+   /home/storm/B4X/linux2510/include/linux/compatmac.h \
+   /home/storm/B4X/linux2510/include/linux/generic_serial.h \
+   sx.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h)
+synclink.o: synclink.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/serial.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/types.h \
+   /home/storm/B4X/linux2510/include/linux/termios.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/synclink/syncppp/module.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/synclink/syncppp.h) \
+   /home/storm/B4X/linux2510/include/net/syncppp.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/synclink.h
+synclinkmp.o: synclinkmp.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/serial.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/types.h \
+   /home/storm/B4X/linux2510/include/linux/termios.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/synclink/syncppp/module.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/synclink/syncppp.h) \
+   /home/storm/B4X/linux2510/include/net/syncppp.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/synclink.h
+sysrq.o: sysrq.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/mount.h \
+   /home/storm/B4X/linux2510/include/linux/kdev_t.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/quotaops.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/asm/ptrace.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/vt.h)
+toshiba.o: toshiba.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/toshiba.h
+tpqic02.o: tpqic02.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/mtio.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/tpqic02.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/qic02/dynconf.h)
+tty_io.o: tty_io.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_driver.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/devpts_fs.h \
+   /home/storm/B4X/linux2510/include/linux/file.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   /home/storm/B4X/linux2510/include/linux/kd.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/vt_kern.h \
+   /home/storm/B4X/linux2510/include/linux/selection.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/kmod.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/vt.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/unix98/ptys.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/early/printk.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/au1000/serial/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/8xx.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/8260.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mac/serial.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/parisc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sgi/serial.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mvme162/scc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bvme6000/scc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mvme147/scc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial167.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sh/sci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/tn3270/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/tn3215.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hwc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/stdio/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/21285/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/sa1100/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/arc/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/amba/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/68328/serial.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/coldfire/serial.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/dsc21/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m68360/smc/uart.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/m68360/scc/uart.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/atmel/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/netarm/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/samsung/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/s3c2510/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/tx3912/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/txx927/serial/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sibyte/sb1250/duart/console.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/nios/serial.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/espserial.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/serial/tx3912.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/rocketport.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cyclades.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/stallion.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/istallion.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/digi.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/digiepca.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/specialix.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/moxa/smartio.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/moxa/intellio.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/tn3270.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/a2232.h)
+tty_ioctl.o: tty_ioctl.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/termios.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h
+vc_screen.o: vc_screen.c \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/vt_kern.h \
+   /home/storm/B4X/linux2510/include/linux/console_struct.h \
+   /home/storm/B4X/linux2510/include/linux/selection.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   /home/storm/B4X/linux2510/include/asm/unaligned.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h)
+vme_scc.o: vme_scc.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kdev_t.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_flip.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/setup.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mvme147/scc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mvme162/scc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bvme6000/scc.h) \
+   /home/storm/B4X/linux2510/include/linux/generic_serial.h \
+   scc.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h)
+vt.o: vt.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/kd.h \
+   /home/storm/B4X/linux2510/include/linux/vt.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_kern.h \
+   /home/storm/B4X/linux2510/include/linux/vt_kern.h \
+   /home/storm/B4X/linux2510/include/linux/kbd_diacr.h \
+   /home/storm/B4X/linux2510/include/linux/selection.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/fb/compat/xpmac.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ppc/isatimer.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isa.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/host/footbridge.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/x86.h)
+w83877f_wdt.o: w83877f_wdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h
+wafer5823wdt.o: wafer5823wdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+wd501p.h: \
+   $(wildcard /home/storm/B4X/linux2510/include/config/wdt/501.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/wdt501/fan.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/wdt/500.h)
+	@touch wd501p.h
+wdt285.o: wdt285.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/hardware.h \
+   /home/storm/B4X/linux2510/include/asm/mach-types.h \
+   /home/storm/B4X/linux2510/include/asm/hardware/dec21285.h
+wdt977.o: wdt977.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/mach-types.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h)
+wdt.o: wdt.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   wd501p.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/wdt/501.h)
+wdt_pci.o: wdt_pci.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/watchdog.h \
+   wd501p.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/watchdog/nowayout.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/wdt/501.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/wdt/501/pci.h)
+.PRECIOUS:	68328serial.h \
+	envm-s3c2510.h \
+	mc68328digi.h \
+	mcfserial.h \
+	pc110pad.h \
+	riscom8.h \
+	rocket_int.h \
+	scc.h \
+	serial_atmel.h \
+	serial_s3c2510.h \
+	serial_s3c4530.h \
+	serial_tx3912.h \
+	sh-sci.h \
+	sonypi.h \
+	specialix_io8.h \
+	wd501p.h \
+

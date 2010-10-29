@@ -1,0 +1,201 @@
+bootmem.o: bootmem.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel_stat.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/bootmem.h \
+   /home/storm/B4X/linux2510/include/linux/mmzone.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/virtconvert.h
+filemap.o: filemap.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/shm.h \
+   /home/storm/B4X/linux2510/include/linux/mman.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/file.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/iobuf.h \
+   /home/storm/B4X/linux2510/include/asm/pgalloc.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/mman.h \
+   /home/storm/B4X/linux2510/include/asm/virtconvert.h \
+   /home/storm/B4X/linux2510/include/linux/highmem.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/contiguous/page/alloc.h)
+memory.o: memory.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/iobuf.h \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/tlb.h
+mlock.o: mlock.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/shm.h \
+   /home/storm/B4X/linux2510/include/linux/mman.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/pgtable.h
+mmap.o: mmap.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/shm.h \
+   /home/storm/B4X/linux2510/include/linux/mman.h \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/file.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/personality.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/pgalloc.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mmap/fix.h)
+mprotect.o: mprotect.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/shm.h \
+   /home/storm/B4X/linux2510/include/linux/mman.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/pgalloc.h
+mremap.o: mremap.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/shm.h \
+   /home/storm/B4X/linux2510/include/linux/mman.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/pgalloc.h
+numa.o: numa.c \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/bootmem.h \
+   /home/storm/B4X/linux2510/include/linux/mmzone.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/discontigmem.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/numa.h)
+oom_kill.o: oom_kill.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h \
+   /home/storm/B4X/linux2510/include/linux/timex.h
+page_alloc2.o: page_alloc2.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/linux/bootmem.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/compiler.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mem/map.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/uncached/mem.h) \
+   /home/storm/B4X/linux2510/include/asm/arch/memory.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/highmem.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mem/map/mega/hack.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/ram.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/romfs/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ext2/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/minix/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cramfs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ramfs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/contiguous/page/alloc.h)
+page_alloc.o: page_alloc.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/linux/bootmem.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/force/balancing/hack.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/discontigmem.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/highmem.h)
+slab.o: slab.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/compiler.h \
+   /home/storm/B4X/linux2510/include/linux/seq_file.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/contiguous/page/alloc.h) \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/debug/slab.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ucsimm.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ucdimm.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/dragen2.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/smp.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/no/mmu/large/allocs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h)
+swap.o: swap.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel_stat.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/pgtable.h
+swapfile.o: swapfile.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/kernel_stat.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/linux/shm.h \
+   /home/storm/B4X/linux2510/include/asm/pgtable.h
+swap_state.o: swap_state.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel_stat.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/pgtable.h
+vmalloc.o: vmalloc.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/pgalloc.h
+vmscan.o: vmscan.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/kernel_stat.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/highmem.h \
+   /home/storm/B4X/linux2510/include/linux/file.h \
+   /home/storm/B4X/linux2510/include/asm/pgalloc.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/cpu/s3c2510.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/quota.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/contiguous/page/alloc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/force/balancing/hack.h)

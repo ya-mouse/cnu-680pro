@@ -1,0 +1,138 @@
+isense.o: isense.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/asm/spinlock.h \
+   mptbase.h \
+   isense.h \
+   ascq_tbl.c \
+   scsiops.c
+isense.h: \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   scsi3.h
+	@touch isense.h
+linux_compat.h: \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/asm/page.h
+	@touch linux_compat.h
+mptbase.o: mptbase.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/kdev_t.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mtrr.h) \
+   /home/storm/B4X/linux2510/include/asm/irq.h \
+   mptbase.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h)
+mptbase.h: \
+   linux_compat.h \
+   scsi3.h \
+   lsi/mpi_type.h \
+   lsi/mpi.h \
+   lsi/mpi_ioc.h \
+   lsi/mpi_cnfg.h \
+   lsi/mpi_init.h \
+   lsi/mpi_lan.h \
+   lsi/mpi_raid.h \
+   lsi/mpi_fc.h \
+   lsi/mpi_targ.h \
+   lsi/fc_log.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h
+	@touch mptbase.h
+mptctl.o: mptctl.c \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/kdev_t.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/blk.h \
+   ../../scsi/scsi.h \
+   ../../scsi/hosts.h \
+   mptbase.h \
+   mptctl.h
+mptctl.h: \
+   /home/storm/B4X/linux2510/include/linux/version.h
+	@touch mptctl.h
+mptlan.o: mptlan.c \
+   mptlan.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h
+mptlan.h: \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/fcdevice.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/if_arp.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   mptbase.h
+	@touch mptlan.h
+mptscsih.o: mptscsih.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kdev_t.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/blk.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   ../../scsi/scsi.h \
+   ../../scsi/hosts.h \
+   ../../scsi/sd.h \
+   mptbase.h \
+   mptscsih.h \
+   isense.h \
+   ../../scsi/scsi_module.c
+mptscsih.h: \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/capability.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h
+	@touch mptscsih.h
+scsi3.h: \
+   /home/storm/B4X/linux2510/include/linux/types.h
+	@touch scsi3.h
+.PRECIOUS:	isense.h \
+	linux_compat.h \
+	mptbase.h \
+	mptctl.h \
+	mptlan.h \
+	mptscsih.h \
+	scsi3.h \
+

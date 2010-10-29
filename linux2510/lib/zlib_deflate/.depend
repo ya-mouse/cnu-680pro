@@ -1,0 +1,11 @@
+deflate.o: deflate.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/zutil.h \
+   defutil.h
+deflate_syms.o: deflate_syms.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/zlib.h
+deftree.o: deftree.c \
+   /home/storm/B4X/linux2510/include/linux/zutil.h \
+   defutil.h

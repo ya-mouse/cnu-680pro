@@ -1,0 +1,90 @@
+arch.o: arch.c \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/tty.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/delay.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/pm.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/elf.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/setup.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/mach-types.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/mach/arch.h
+config.o: config.c \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/mm.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/tty.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/console.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/uCbootstrap.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/arch/hardware.h \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/support/envm.h) \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/envm.h \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/arm/clk.h) \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/debug.h) \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/uncached/mem.h) \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/uncached/256.h) \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/uncached/512.h) \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/uncached/1024.h) \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/uncached/2048.h) \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/uncached/4096.h) \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/uncached/8192.h)
+config_reset.o: config_reset.c \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/version.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/serial.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/errno.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/signal.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/timer.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/interrupt.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/fcntl.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/io.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/irq.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/arch/irq.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/system.h \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/reset/gpio5.h)
+dma.o: dma.c \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/malloc.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/mman.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/page.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/pgtable.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/dma.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/io.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/hardware.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/mach/dma.h
+factory_default.o: factory_default.c \
+   kludge.h \
+   factory_default.h
+io.o: io.c \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/io.h
+irq.o: irq.c \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/mach/irq.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/hardware.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/io.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/irq.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/system.h
+kludge.h: \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/nr/dram/banks.h)
+	@touch kludge.h
+smdk2510-pci.o: smdk2510-pci.c \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/pci.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/irq.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/mach/pci.h \
+   $(wildcard /home/corey/SAM/uClinux-dist/linux-2.4.x/include/config/pci.h)
+time.o: time.c \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/time.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/timex.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/io.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/arch/hardware.h \
+   /home/corey/SAM/uClinux-dist/linux-2.4.x/include/asm/arch/timers.h
+.PRECIOUS:	kludge.h \
+

@@ -1,0 +1,104 @@
+br_db.o: br_db.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/if_ether.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge.h \
+   /home/storm/B4X/linux2510/include/linux/br_db.h \
+   /home/storm/B4X/linux2510/include/linux/socket.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/asm/errno.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/smp.h
+ebtable_broute.o: ebtable_broute.c \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/if_bridge.h \
+   /home/storm/B4X/linux2510/include/linux/brlock.h
+ebtable_filter.o: ebtable_filter.c \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge.h \
+   /home/storm/B4X/linux2510/include/linux/module.h
+ebtable_nat.o: ebtable_nat.c \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/module.h
+ebtables.o: ebtables.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/kmod.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/if_ether.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_ipv4.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/smp.h \
+   /home/storm/B4X/linux2510/include/net/sock.h \
+   ../br_private.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_ipv4/listhelp.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bridge/tunnel.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/kmod.h)
+ebt_arp.o: ebt_arp.c \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebt_arp.h \
+   /home/storm/B4X/linux2510/include/linux/if_arp.h \
+   /home/storm/B4X/linux2510/include/linux/module.h
+ebt_dnat.o: ebt_dnat.c \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebt_nat.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/net/sock.h
+ebt_ip.o: ebt_ip.c \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebt_ip.h \
+   /home/storm/B4X/linux2510/include/linux/ip.h \
+   /home/storm/B4X/linux2510/include/linux/module.h
+ebt_log.o: ebt_log.c \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebt_log.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/ip.h \
+   /home/storm/B4X/linux2510/include/linux/if_arp.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h
+ebt_mark.o: ebt_mark.c \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebt_mark_t.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/net/sock.h \
+   ../br_private.h
+ebt_mark_m.o: ebt_mark_m.c \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebt_mark_m.h \
+   /home/storm/B4X/linux2510/include/linux/module.h
+ebt_redirect.o: ebt_redirect.c \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebt_redirect.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/net/sock.h \
+   ../br_private.h
+ebt_snat.o: ebt_snat.c \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebt_nat.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/net/sock.h
+ebt_vlan.o: ebt_vlan.c \
+   /home/storm/B4X/linux2510/include/linux/if_ether.h \
+   /home/storm/B4X/linux2510/include/linux/if_vlan.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebtables.h \
+   /home/storm/B4X/linux2510/include/linux/netfilter_bridge/ebt_vlan.h

@@ -1,0 +1,21 @@
+/Makefile/1.1.1.1/Mon Nov 17 02:33:56 2003//
+/adb-iop.c/1.1.1.1/Mon Nov 17 02:33:56 2003//
+/adb.c/1.1.1.1/Mon Nov 17 02:33:56 2003//
+/adbhid.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/ans-lcd.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/apm_emu.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/mac_hid.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/mac_keyb.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/macio-adb.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/mackeymap.map/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/macserial.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/macserial.h/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/mediabay.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/nvram.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/rtc.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/via-cuda.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/via-macii.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/via-maciisi.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/via-pmu.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+/via-pmu68k.c/1.1.1.1/Mon Nov 17 02:33:57 2003//
+D

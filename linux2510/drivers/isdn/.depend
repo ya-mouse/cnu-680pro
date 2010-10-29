@@ -1,0 +1,137 @@
+isdn_audio.o: isdn_audio.c \
+   /home/storm/B4X/linux2510/include/linux/isdn.h \
+   isdn_audio.h \
+   isdn_common.h
+isdn_bsdcomp.o: isdn_bsdcomp.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/ptrace.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/in.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   /home/storm/B4X/linux2510/include/asm/types.h \
+   /home/storm/B4X/linux2510/include/linux/if.h \
+   /home/storm/B4X/linux2510/include/linux/if_ether.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/inet.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/ppp_defs.h \
+   /home/storm/B4X/linux2510/include/linux/isdn.h \
+   /home/storm/B4X/linux2510/include/linux/isdn_ppp.h \
+   /home/storm/B4X/linux2510/include/linux/ip.h \
+   /home/storm/B4X/linux2510/include/linux/tcp.h \
+   /home/storm/B4X/linux2510/include/linux/if_arp.h \
+   /home/storm/B4X/linux2510/include/linux/ppp-comp.h \
+   isdn_ppp.h
+isdn_common.o: isdn_common.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/isdn.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   isdn_common.h \
+   isdn_tty.h \
+   isdn_net.h \
+   isdn_ppp.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/audio.h) \
+   isdn_audio.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/diversion/module.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/diversion.h) \
+   /home/storm/B4X/linux2510/include/linux/isdn_divertif.h \
+   isdn_v110.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/ppp.h) \
+   avmb1/capicmd.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/x25.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/tty/fax.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/netdevices.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h)
+isdn_concap.o: isdn_concap.c \
+   /home/storm/B4X/linux2510/include/linux/isdn.h \
+   isdn_x25iface.h \
+   isdn_net.h \
+   /home/storm/B4X/linux2510/include/linux/concap.h \
+   isdn_concap.h
+isdn_net.o: isdn_net.c \
+   /home/storm/B4X/linux2510/include/linux/isdn.h \
+   /home/storm/B4X/linux2510/include/net/arp.h \
+   /home/storm/B4X/linux2510/include/net/dst.h \
+   /home/storm/B4X/linux2510/include/net/pkt_sched.h \
+   /home/storm/B4X/linux2510/include/linux/inetdevice.h \
+   isdn_common.h \
+   isdn_net.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/ppp.h) \
+   isdn_ppp.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/x25.h) \
+   /home/storm/B4X/linux2510/include/linux/concap.h \
+   isdn_concap.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/inet.h)
+isdn_ppp.o: isdn_ppp.c \
+   /home/storm/B4X/linux2510/include/linux/isdn.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/ppp-comp.h \
+   isdn_common.h \
+   isdn_ppp.h \
+   isdn_net.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/mpp.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/ppp/vj.h)
+isdn_ppp.h: \
+   /home/storm/B4X/linux2510/include/linux/ppp_defs.h \
+   /home/storm/B4X/linux2510/include/linux/isdn_ppp.h
+	@touch isdn_ppp.h
+isdn_tty.o: isdn_tty.c \
+   /home/storm/B4X/linux2510/include/linux/isdn.h \
+   isdn_common.h \
+   isdn_tty.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/audio.h) \
+   isdn_audio.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/devfs/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/tty/fax.h) \
+   avmb1/capicmd.h
+isdn_ttyfax.o: isdn_ttyfax.c \
+   /home/storm/B4X/linux2510/include/linux/isdn.h \
+   isdn_common.h \
+   isdn_tty.h \
+   isdn_ttyfax.h
+isdn_tty.h: \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/tty/fax.h)
+	@touch isdn_tty.h
+isdn_v110.o: isdn_v110.c \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/isdn.h \
+   isdn_v110.h
+isdn_x25iface.o: isdn_x25iface.c \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/concap.h \
+   /home/storm/B4X/linux2510/include/linux/wanrouter.h \
+   isdn_x25iface.h
+isdn_x25iface.h: \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/wanrouter.h \
+   /home/storm/B4X/linux2510/include/linux/isdn.h \
+   /home/storm/B4X/linux2510/include/linux/concap.h
+	@touch isdn_x25iface.h
+.PRECIOUS:	isdn_ppp.h \
+	isdn_tty.h \
+	isdn_x25iface.h \
+

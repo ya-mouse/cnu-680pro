@@ -1,0 +1,26 @@
+tbconvrt.o: tbconvrt.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actbl.h
+tbget.o: tbget.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h
+tbinstal.o: tbinstal.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h
+tbutils.o: tbutils.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h
+tbxface.o: tbxface.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acnamesp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acinterp.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h
+tbxfroot.o: tbxfroot.c \
+   /home/storm/B4X/linux2510/drivers/acpi/include/acpi.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/achware.h \
+   /home/storm/B4X/linux2510/drivers/acpi/include/actables.h

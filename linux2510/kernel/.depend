@@ -1,0 +1,314 @@
+acct.o: acct.c \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bsd/process/acct.h) \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/acct.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/file.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+capability.o: capability.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+context.o: context.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/unistd.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/completion.h
+dma.o: dma.c \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/asm/dma.h \
+   /home/storm/B4X/linux2510/include/asm/system.h
+exec_domain.o: exec_domain.c \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/kmod.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/personality.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/sysctl.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/kmod.h)
+exit.o: exit.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/completion.h \
+   /home/storm/B4X/linux2510/include/linux/personality.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/namespace.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bsd/process/acct.h) \
+   /home/storm/B4X/linux2510/include/linux/acct.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/pgtable.h \
+   /home/storm/B4X/linux2510/include/asm/mmu_context.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/smp.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/syscalltimer.h)
+fork.o: fork.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/unistd.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/completion.h \
+   /home/storm/B4X/linux2510/include/linux/namespace.h \
+   /home/storm/B4X/linux2510/include/linux/personality.h \
+   /home/storm/B4X/linux2510/include/linux/compiler.h \
+   /home/storm/B4X/linux2510/include/asm/pgtable.h \
+   /home/storm/B4X/linux2510/include/asm/pgalloc.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/mmu_context.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/uclinux.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/syscalltimer.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/smp.h)
+info.o: info.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/unistd.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+itimer.o: itimer.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+kmod.o: kmod.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/unistd.h \
+   /home/storm/B4X/linux2510/include/linux/kmod.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/namespace.h \
+   /home/storm/B4X/linux2510/include/linux/completion.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/kmod.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hotplug.h)
+ksyms.o: ksyms.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/cdrom.h \
+   /home/storm/B4X/linux2510/include/linux/kernel_stat.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/sys.h \
+   /home/storm/B4X/linux2510/include/linux/utsname.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/serial.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/linux/sysctl.h \
+   /home/storm/B4X/linux2510/include/linux/hdreg.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/genhd.h \
+   /home/storm/B4X/linux2510/include/linux/blkpg.h \
+   /home/storm/B4X/linux2510/include/linux/swap.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   /home/storm/B4X/linux2510/include/linux/file.h \
+   /home/storm/B4X/linux2510/include/linux/iobuf.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/mmzone.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/capability.h \
+   /home/storm/B4X/linux2510/include/linux/highuid.h \
+   /home/storm/B4X/linux2510/include/linux/brlock.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/in6.h \
+   /home/storm/B4X/linux2510/include/linux/completion.h \
+   /home/storm/B4X/linux2510/include/linux/seq_file.h \
+   /home/storm/B4X/linux2510/include/linux/dnotify.h \
+   /home/storm/B4X/linux2510/include/asm/checksum.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/kmod.h) \
+   /home/storm/B4X/linux2510/include/linux/kmod.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/modversions.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/highmem.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ia64.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/arch/s390.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/smp.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/generic/isa/dma.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/uid16.h)
+module.o: module.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/asm/module.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/vmalloc.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/pgalloc.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/kmod.h \
+   /home/storm/B4X/linux2510/include/linux/seq_file.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/modules.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/kallsyms.h)
+panic.o: panic.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/arch/s390.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/smp.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/x86.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/vt.h)
+pm.o: pm.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/pm.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h
+printk.o: printk.c \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/tty_driver.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/multiquad.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ia64.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/arch/s390.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/smp.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/uclinux.h)
+ptrace.o: ptrace.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/highmem.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/pgtable.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/smp.h)
+resource.o: resource.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/spinlock.h \
+   /home/storm/B4X/linux2510/include/asm/io.h
+sched.o: sched.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/nmi.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/kernel_stat.h \
+   /home/storm/B4X/linux2510/include/linux/completion.h \
+   /home/storm/B4X/linux2510/include/linux/prefetch.h \
+   /home/storm/B4X/linux2510/include/linux/compiler.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/mmu_context.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/smp.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/syscalltimer.h)
+signal.o: signal.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/unistd.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/smp.h)
+softirq.o: softirq.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/kernel_stat.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h
+sys.o: sys.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/utsname.h \
+   /home/storm/B4X/linux2510/include/linux/mman.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/prctl.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/highuid.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h
+sysctl.o: sysctl.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/sysctl.h \
+   /home/storm/B4X/linux2510/include/linux/swapctl.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   /home/storm/B4X/linux2510/include/linux/utsname.h \
+   /home/storm/B4X/linux2510/include/linux/capability.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/sysrq.h \
+   /home/storm/B4X/linux2510/include/linux/highuid.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/root/nfs.h) \
+   /home/storm/B4X/linux2510/include/linux/nfs_fs.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sysctl.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/kmod.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/hotplug.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/chr/dev/sg.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/sysvipc.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/arch/s390.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mathemu.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ppc32.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/bsd/process/acct.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/net.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/blk/dev/initrd.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/magic/sysrq.h)
+time.o: time.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/timex.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+timer.o: timer.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/timex.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/kernel_stat.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/smp.h)
+uid16.o: uid16.c \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/utsname.h \
+   /home/storm/B4X/linux2510/include/linux/mman.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/notifier.h \
+   /home/storm/B4X/linux2510/include/linux/reboot.h \
+   /home/storm/B4X/linux2510/include/linux/prctl.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/highuid.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h
+user.o: user.c \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h

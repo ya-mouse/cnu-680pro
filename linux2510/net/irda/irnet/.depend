@@ -1,0 +1,38 @@
+irnet.h: \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/devfs_fs_kernel.h \
+   /home/storm/B4X/linux2510/include/linux/netdevice.h \
+   /home/storm/B4X/linux2510/include/linux/miscdevice.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   /home/storm/B4X/linux2510/include/linux/ppp_defs.h \
+   /home/storm/B4X/linux2510/include/linux/if_ppp.h \
+   /home/storm/B4X/linux2510/include/linux/ppp_channel.h \
+   /home/storm/B4X/linux2510/include/net/irda/irda.h \
+   /home/storm/B4X/linux2510/include/net/irda/iriap.h \
+   /home/storm/B4X/linux2510/include/net/irda/irias_object.h \
+   /home/storm/B4X/linux2510/include/net/irda/irlmp.h \
+   /home/storm/B4X/linux2510/include/net/irda/irttp.h \
+   /home/storm/B4X/linux2510/include/net/irda/discovery.h
+	@touch irnet.h
+irnet_irda.o: irnet_irda.c \
+   irnet_irda.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h)
+irnet_irda.h: \
+   irnet.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/proc/fs.h)
+	@touch irnet_irda.h
+irnet_ppp.o: irnet_ppp.c \
+   irnet_ppp.h
+irnet_ppp.h: \
+   irnet.h
+	@touch irnet_ppp.h
+.PRECIOUS:	irnet.h \
+	irnet_irda.h \
+	irnet_ppp.h \
+

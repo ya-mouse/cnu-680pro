@@ -1,0 +1,35 @@
+accel.o: accel.c \
+   rivafb.h
+fbdev.o: fbdev.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/selection.h \
+   /home/storm/B4X/linux2510/include/linux/tty.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/fb.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/console.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mtrr.h) \
+   rivafb.h \
+   nvreg.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h)
+rivafb.h: \
+   /home/storm/B4X/linux2510/include/linux/fb.h \
+   /home/storm/B4X/linux2510/include/video/fbcon.h \
+   /home/storm/B4X/linux2510/include/video/fbcon-cfb4.h \
+   /home/storm/B4X/linux2510/include/video/fbcon-cfb8.h \
+   /home/storm/B4X/linux2510/include/video/fbcon-cfb16.h \
+   /home/storm/B4X/linux2510/include/video/fbcon-cfb32.h \
+   riva_hw.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mtrr.h)
+	@touch rivafb.h
+riva_hw.o: riva_hw.c \
+   riva_hw.h \
+   riva_tbl.h
+.PRECIOUS:	rivafb.h \
+

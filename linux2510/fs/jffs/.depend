@@ -1,0 +1,71 @@
+inode-v23.o: inode-v23.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/unistd.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/jffs.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/ioctl.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/quotaops.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   jffs_fm.h \
+   intrep.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/jffs/proc/fs.h) \
+   jffs_proc.h
+intrep.o: intrep.c \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/jffs.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/pagemap.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/asm/semaphore.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   /home/storm/B4X/linux2510/include/linux/version.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   intrep.h \
+   jffs_fm.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/jffs/fs/verbose.h)
+intrep.h: \
+   jffs_fm.h
+	@touch intrep.h
+jffs_fm.o: jffs_fm.c \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/jffs.h \
+   jffs_fm.h
+jffs_fm.h: \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   /home/storm/B4X/linux2510/include/linux/jffs.h \
+   /home/storm/B4X/linux2510/include/linux/mtd/mtd.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/jffs/fs/verbose.h)
+	@touch jffs_fm.h
+jffs_proc.o: jffs_proc.c \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/jffs.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/types.h \
+   jffs_fm.h \
+   jffs_proc.h
+jffs_proc.h: \
+   /home/storm/B4X/linux2510/include/linux/proc_fs.h
+	@touch jffs_proc.h
+.PRECIOUS:	intrep.h \
+	jffs_fm.h \
+	jffs_proc.h \
+

@@ -1,0 +1,237 @@
+adapter.h: \
+   sys.h \
+   idi.h \
+   divas.h \
+   pc.h
+	@touch adapter.h
+bri.o: bri.c \
+   eicon.h \
+   sys.h \
+   idi.h \
+   divas.h \
+   pc.h \
+   pr_pc.h \
+   dsp_defs.h \
+   adapter.h \
+   uxio.h
+common.o: common.c \
+   eicon.h \
+   sys.h \
+   idi.h \
+   constant.h \
+   divas.h \
+   pc.h \
+   pr_pc.h \
+   uxio.h
+divas.h: \
+   sys.h
+	@touch divas.h
+Divas_mod.o: Divas_mod.c \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   adapter.h \
+   uxio.h \
+   idi.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h)
+dsp_defs.h: \
+   dspdids.h
+	@touch dsp_defs.h
+eicon_dsp.h: \
+   dsp_defs.h
+	@touch eicon_dsp.h
+eicon.h: \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/skbuff.h \
+   /home/storm/B4X/linux2510/include/linux/errno.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/major.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/signal.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/mm.h \
+   /home/storm/B4X/linux2510/include/linux/mman.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   /home/storm/B4X/linux2510/include/linux/timer.h \
+   /home/storm/B4X/linux2510/include/linux/wait.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   /home/storm/B4X/linux2510/include/linux/ctype.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/isdn.h \
+   /home/storm/B4X/linux2510/include/linux/isdnif.h \
+   eicon_isa.h \
+   idi.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/tty/fax.h) \
+   eicon_pci.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mca.h) \
+   eicon_idi.h
+	@touch eicon.h
+eicon_idi.o: eicon_idi.c \
+   eicon.h \
+   eicon_idi.h \
+   eicon_dsp.h \
+   uxio.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/tty/fax.h)
+eicon_idi.h: \
+   pc.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/tty/fax.h)
+	@touch eicon_idi.h
+eicon_io.o: eicon_io.c \
+   eicon.h \
+   uxio.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/drv/eicon/pci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/drv/eicon/isa.h)
+eicon_isa.o: eicon_isa.c \
+   eicon.h \
+   eicon_isa.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/drv/eicon/isa.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mca.h)
+eicon_isa.h: \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mca.h)
+	@touch eicon_isa.h
+eicon_mod.o: eicon_mod.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/mca.h) \
+   /home/storm/B4X/linux2510/include/linux/mca.h \
+   eicon.h \
+   ../avmb1/capicmd.h \
+   adapter.h \
+   uxio.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/drv/eicon/isa.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/drv/eicon/pci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/tty/fax.h)
+eicon_pci.o: eicon_pci.c \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   eicon.h \
+   eicon_pci.h \
+   adapter.h \
+   uxio.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/pci.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/isdn/drv/eicon/pci.h)
+fourbri.o: fourbri.c \
+   sys.h \
+   idi.h \
+   divas.h \
+   pc.h \
+   pr_pc.h \
+   dsp_defs.h \
+   constant.h \
+   adapter.h \
+   uxio.h
+fpga.o: fpga.c \
+   sys.h \
+   idi.h \
+   uxio.h
+idi.o: idi.c \
+   idi.h \
+   adapter.h \
+   pc.h \
+   pr_pc.h \
+   sys.h \
+   uxio.h
+idi.h: \
+   sys.h
+	@touch idi.h
+kprintf.o: kprintf.c \
+   eicon.h \
+   sys.h \
+   divas.h \
+   divalog.h \
+   uxio.h
+lincfg.o: lincfg.c \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/asm/segment.h \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   sys.h \
+   idi.h \
+   constant.h \
+   divas.h \
+   pc.h \
+   pr_pc.h \
+   adapter.h \
+   uxio.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h
+linchr.o: linchr.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/poll.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   adapter.h \
+   divas.h \
+   divalog.h
+linio.o: linio.c \
+   /home/storm/B4X/linux2510/include/asm/io.h \
+   /home/storm/B4X/linux2510/include/asm/system.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/pci.h \
+   /home/storm/B4X/linux2510/include/linux/delay.h \
+   uxio.h
+linsys.o: linsys.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/tqueue.h \
+   /home/storm/B4X/linux2510/include/linux/smp.h \
+   /home/storm/B4X/linux2510/include/linux/interrupt.h \
+   /home/storm/B4X/linux2510/include/linux/ioport.h \
+   sys.h \
+   divas.h \
+   adapter.h \
+   divalog.h \
+   uxio.h
+log.o: log.c \
+   sys.h \
+   idi.h \
+   divas.h \
+   adapter.h \
+   divalog.h \
+   uxio.h
+pri.o: pri.c \
+   sys.h \
+   idi.h \
+   divas.h \
+   pc.h \
+   pr_pc.h \
+   dsp_defs.h \
+   adapter.h \
+   uxio.h
+sys.h: \
+   /home/storm/B4X/linux2510/include/linux/kernel.h \
+   /home/storm/B4X/linux2510/include/linux/string.h
+	@touch sys.h
+uxio.h: \
+   sys.h \
+   adapter.h
+	@touch uxio.h
+xlog.o: xlog.c \
+   sys.h \
+   idi.h \
+   pc.h \
+   pc_maint.h \
+   divalog.h \
+   adapter.h \
+   uxio.h
+.PRECIOUS:	adapter.h \
+	divas.h \
+	dsp_defs.h \
+	eicon_dsp.h \
+	eicon.h \
+	eicon_idi.h \
+	eicon_isa.h \
+	idi.h \
+	sys.h \
+	uxio.h \
+

@@ -1,0 +1,1 @@
+#define CONFIG_REDUCED_MEMORY 1

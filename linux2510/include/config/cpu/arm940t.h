@@ -1,0 +1,1 @@
+#define CONFIG_CPU_ARM940T 1

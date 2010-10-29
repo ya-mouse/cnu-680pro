@@ -1,0 +1,177 @@
+/*
+ *  linux/arch/armnommu/$(MACHINE)/config.c
+ *
+ *  Copyright (C) 1993 Hamish Macdonald
+ *  Copyright (C) 1999 D. Jeff Dionne
+ *  Copyright (C) 2001-2003 Oleksandr Zhadan
+ *
+ * This file is subject to the terms and conditions of the GNU General Public
+ * License.  See the file COPYING in the main directory of this archive
+ * for more details.
+ */
+
+#include <stdarg.h>
+#include <linux/config.h>
+#include <linux/types.h>
+#include <linux/kernel.h>
+#include <linux/mm.h>
+#include <linux/tty.h>
+#include <linux/console.h>
+#include <linux/init.h>
+#include <asm/uCbootstrap.h>
+#include <asm/arch/hardware.h>
+
+#if defined(CONFIG_SUPPORT_ENVM)
+#include <linux/envm.h>
+#endif
+
+unsigned char *get_MAC_address(char *);
+
+unsigned int CPU_CLOCK=0;  		/* CPU clock	*/
+unsigned int SYS_CLOCK=0;  		/* System clock	*/
+unsigned int CONFIG_ARM_CLK=0;
+
+void	get_system_clock(void)
+{
+    unsigned int status = *(unsigned int *)CLKST;
+    unsigned int pll = *(unsigned int *)SYSCFG;
+
+    if	 ( pll & 0x80000000 ) {
+	 CPU_CLOCK = (*(unsigned int *)CPLL & 0xff)+8;
+         switch (status>>30) {
+		case 0:	    SYS_CLOCK = CPU_CLOCK;
+			    break;
+		case 1:
+		case 2:	    SYS_CLOCK = CPU_CLOCK >> 1;
+			    break;
+		case 3:	    SYS_CLOCK = (*(unsigned int *)SPLL & 0xff)+8;
+			    break;
+		}
+	 }
+    else {
+	 pll = (status & 0x00000fff);
+	 CPU_CLOCK += ((pll&0xF00)>>8)*100;
+	 CPU_CLOCK += ((pll&0x0F0)>>4)*10;
+	 CPU_CLOCK += ((pll&0x00F)>>0)*1;
+
+	 switch (status>>30) {
+		case 0:	    SYS_CLOCK = CPU_CLOCK;
+			    break;
+		case 1:
+		case 2:	    SYS_CLOCK = CPU_CLOCK >> 1;
+			    break;
+		case 3:	    pll = ((status & 0x00fff000)>>12);
+			    SYS_CLOCK += ((pll&0xF00)>>8)*100;
+			    SYS_CLOCK += ((pll&0x0F0)>>4)*10;
+			    SYS_CLOCK += ((pll&0x00F)>>0)*1;
+			    break;
+		}
+	}
+
+    CONFIG_ARM_CLK = (SYS_CLOCK*1000000);
+    asm("nop");
+}
+
+void config_BSP()
+{
+#if defined(CONFIG_SUPPORT_ENVM)
+	envm_load();
+#endif
+}
+
+static inline unsigned char str2hexnum(unsigned char c)
+{
+	if (c >= '0' && c <= '9')
+		return c - '0';
+	if (c >= 'a' && c <= 'f')
+		return c - 'a' + 10;
+	if (c >= 'A' && c <= 'F')
+		return c - 'A' + 10;
+	return 0; /* foo */
+}
+
+static inline void str2eaddr(unsigned char *ea, unsigned char *str)
+{
+	int i;
+	str++;
+	for (i = 0; i < 6; i++) {
+		unsigned char num;
+
+	if(*str == ':')
+		str++;
+		num = str2hexnum(*str++) << 4;
+		num |= (str2hexnum(*str++));
+		ea[i] = num;
+	}
+}
+
+// choish_shared_lib_porting, replace global variable from get_MAC_address function
+static unsigned char getptr0[20], getptr1[20];
+
+unsigned char *get_MAC_address(char *eth_name)
+{
+//	unsigned char getptr0[20], getptr1[20];
+	unsigned char *get_env_str0, *get_env_str1;
+	int i;
+
+	unsigned char ethaddr0[18], ethaddr0_i[17] = {"00:09:30:28:12:22"};
+	unsigned char ethaddr1[18], ethaddr1_i[17] = {"00:09:30:28:12:24"};
+	unsigned char eth0_str[9], eth0_str_i[8] = {"ethaddr0"};
+	unsigned char eth1_str[9], eth1_str_i[8] = {"ethaddr1"};
+
+	memcpy(ethaddr0, ethaddr0_i, sizeof(ethaddr0_i));
+	memcpy(ethaddr1, ethaddr1_i, sizeof(ethaddr1_i));
+	ethaddr0[17] = NULL;
+	ethaddr1[17] = NULL;
+
+	memcpy(eth0_str, eth0_str_i, sizeof(eth0_str_i));
+	memcpy(eth1_str, eth1_str_i, sizeof(eth1_str_i));
+	eth0_str[8] = NULL;
+	eth1_str[8] = NULL;
+
+	
+	if(!strcmp(eth_name, "eth0"))
+	{
+#if 0 /* coreyliu 20040202 not get from envm */
+		get_env_str0 = (unsigned char *)envm_read("HWADDR0");
+#else
+		get_env_str0 = -1;
+#endif
+		if(get_env_str0 == -1)
+		{
+			printk("ethaddr0 not found in env value. default set!\n");
+			get_env_str0 = ethaddr0;
+		}
+		printk("ethaddr0=%s\n", (unsigned char *)get_env_str0);
+		str2eaddr(getptr0, get_env_str0);
+		return (getptr0);
+	}
+
+	if(!strcmp(eth_name, "eth1"))
+	{
+#if 0 /* coreyliu 20040202 not get from envm */
+		get_env_str1 = envm_read("HWADDR1");
+#else
+		get_env_str1 = -1;
+#endif
+		if(get_env_str1 == -1)
+		{
+			printk("ethaddr1 not found in env value. default set!\n");
+			get_env_str1 = ethaddr1;
+		}
+		printk("ethaddr1=%s\n", (char *)get_env_str1);
+		str2eaddr(getptr1, (char *)get_env_str1);
+		return (getptr1);
+		}
+
+	return (NULL);
+
+}
+
+/*
+ * Local variables:
+ *  c-indent-level: 4
+ *  c-basic-offset: 4
+ *  tab-width: 4
+ * End:
+ */

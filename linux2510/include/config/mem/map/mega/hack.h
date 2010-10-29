@@ -1,0 +1,1 @@
+#undef  CONFIG_MEM_MAP_MEGA_HACK

@@ -1,0 +1,96 @@
+balloc.o: balloc.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/jbd.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_fs.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_jbd.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/linux/quotaops.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/jbd/debug.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ext3/check.h)
+bitmap.o: bitmap.c \
+   /home/storm/B4X/linux2510/include/linux/fs.h
+dir.o: dir.c \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/jbd.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_fs.h
+file.o: file.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/linux/jbd.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_fs.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_jbd.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h
+fsync.o: fsync.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/jbd.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_fs.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_jbd.h \
+   /home/storm/B4X/linux2510/include/linux/jbd.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h
+ialloc.o: ialloc.c \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/jbd.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_fs.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_jbd.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/linux/quotaops.h \
+   /home/storm/B4X/linux2510/include/asm/bitops.h \
+   /home/storm/B4X/linux2510/include/asm/byteorder.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ext3/check.h)
+inode.o: inode.c \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_jbd.h \
+   /home/storm/B4X/linux2510/include/linux/jbd.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/highuid.h \
+   /home/storm/B4X/linux2510/include/linux/quotaops.h \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/quota.h)
+ioctl.o: ioctl.c \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/jbd.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_fs.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_jbd.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/jbd/debug.h)
+namei.o: namei.c \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/jbd.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_fs.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_jbd.h \
+   /home/storm/B4X/linux2510/include/linux/fcntl.h \
+   /home/storm/B4X/linux2510/include/linux/stat.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/linux/quotaops.h
+super.o: super.c \
+   /home/storm/B4X/linux2510/include/linux/module.h \
+   /home/storm/B4X/linux2510/include/linux/string.h \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/sched.h \
+   /home/storm/B4X/linux2510/include/linux/jbd.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_fs.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_jbd.h \
+   /home/storm/B4X/linux2510/include/linux/slab.h \
+   /home/storm/B4X/linux2510/include/linux/init.h \
+   /home/storm/B4X/linux2510/include/linux/locks.h \
+   /home/storm/B4X/linux2510/include/linux/blkdev.h \
+   /home/storm/B4X/linux2510/include/linux/smp_lock.h \
+   /home/storm/B4X/linux2510/include/linux/random.h \
+   /home/storm/B4X/linux2510/include/asm/uaccess.h \
+   $(wildcard /home/storm/B4X/linux2510/include/config/jbd/debug.h) \
+   $(wildcard /home/storm/B4X/linux2510/include/config/ext3/check.h)
+symlink.o: symlink.c \
+   /home/storm/B4X/linux2510/include/linux/fs.h \
+   /home/storm/B4X/linux2510/include/linux/jbd.h \
+   /home/storm/B4X/linux2510/include/linux/ext3_fs.h
