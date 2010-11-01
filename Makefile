@@ -21,6 +21,10 @@ all: $(SUBDIRS)
 install: 680pro.bin
 
 680pro.bin: .680pro.rom
+	@if [ "$$(/bin/echo -en "\x20" | wc -c 2>/dev/null)" -ne 1 ]; then \
+	    echo "FATAL: /bin/echo doesn't support backslash'es escapes."; \
+	    false; \
+	fi
 	/bin/echo -en "\x49\x54\x00\x01\x49\x23\x5F\x8C\xA3\x38\x85\x4C" > 680pro.bin
 	printf "%08x" $$(stat -c '%s' .680pro.rom) | sed 's,\([0-9a-f]\{2\}\),\\\\x\1,g' | xargs /bin/echo -en >> 680pro.bin
 	cat .680pro.rom >> 680pro.bin
