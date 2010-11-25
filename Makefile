@@ -14,6 +14,8 @@ all: $(SUBDIRS)
 	sed -i 's,/bin/csh$$,/bin/sh,' out/etc/passwd*
 	# Remove snmpd
 	rm -f out/bin/snmpd
+	# Change "Tel Number" to "SRedird Port"
+	sed -i 's,Tel Number,SRedird Port,' out/htdocs/pppconf.shtml
 	# Fix version
 	@echo $(VERSION) > out/etc/version.conf
 	@touch .stamp-out
