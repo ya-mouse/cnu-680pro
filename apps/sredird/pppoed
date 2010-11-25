@@ -1,3 +1,6 @@
 #!/bin/sh
 
-exec sredird 0 /dev/ttyACM0 /var/lock/LCK..ttyACM0 7200
+port=`nvramedit get ppp0/telnumber`
+[ "$port" -gt "0" ] || port=7200
+
+exec sredird 0 /dev/ttyACM0 /var/lock/LCK..ttyACM0 $port
