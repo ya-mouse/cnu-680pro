@@ -21,4 +21,3 @@ install: $(TARGET) $(CONTRIB)
 
 clean:
 	rm -f $(TARGET) $(TARGET).gdb $(OBJ)
-

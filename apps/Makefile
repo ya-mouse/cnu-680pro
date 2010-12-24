@@ -1,4 +1,4 @@
-SUBDIRS=gpio sredird
+SUBDIRS=gpio sercd
 
 all clean install: $(SUBDIRS)
 
