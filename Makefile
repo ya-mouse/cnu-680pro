@@ -1,4 +1,4 @@
-VERSION=CNU-680pro-0.0.37-yandex1
+VERSION=CNU-680pro-0.0.37-yandex2.sercd
 
 SUBDIRS=toolchain uClibc apps
 
